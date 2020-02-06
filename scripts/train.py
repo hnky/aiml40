@@ -28,8 +28,7 @@ from nlp_architect.utils.io import uncompress_file
 from nlp_architect.models.absa import TRAIN_OUT, LEXICONS_OUT
 
 spacy_download('en')
-GLOVE_ZIP = os.path.join(args.data_folder, 
-                                 'clothing_data/glove.840B.300d.zip')
+GLOVE_ZIP = os.path.join(args.data_folder, 'clothing_data/glove.840B.300d.zip')
 EMBEDDING_PATH = TRAIN_OUT / 'word_emb_unzipped' / 'glove.840B.300d.txt'
 
 
@@ -83,8 +82,7 @@ def doc2IO(doc):
 inference = SentimentInference(LEXICONS_OUT / 'generated_aspect_lex.csv', 
                                LEXICONS_OUT / 'generated_opinion_lex_reranked.csv')
 
-clothing_val = os.path.join(args.data_folder, 
-                                 'clothing_data/clothing-absa-validation.json')
+clothing_val = os.path.join(args.data_folder,'clothing_data/clothing-absa-validation.json')
 
 with open(clothing_val) as json_file:
     val = json.load(json_file)
