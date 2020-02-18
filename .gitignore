@@ -6,3 +6,6 @@ azureml-logs/
 temp/
 notebooks/.ipynb_checkpoints/
 .azureml/
+dataset/glove.840B.300d.zip
+
+.vscode/
