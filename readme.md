@@ -58,6 +58,8 @@ urllib.request.urlretrieve(setup_notebook_url, 'absa/setup.ipynb')
 
 ## Your workspace is now ready to run the demos.
 
+> you may need to refresh the 'Notebooks' screen to see changes
+
 ### Demo 1 - ABSA
 - Under "Notebooks" open the folder absa/notebooks
 - click on 'absa.ipynb'
