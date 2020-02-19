@@ -29,7 +29,7 @@ az ml workspace create -w absa-workspace -l westeurope -g absa-ml-rg
 - (2) Click on 'create new file'
 - Create a new file with file name: "init.ipynb" and File type: Python Notebook. Leave target directory as preselected.
 - (3) Click on 'new compute'
-- Create a New Compute Instance: Compute name: 'absa-notebook' and Virtual Machine size: 'Standard_D3_v2' Leave everything else default.
+- Create a New Compute Instance: Compute name: 'absa-notebook<youralias>' (compute name needs to be unique) and Virtual Machine size: 'Standard_D3_v2' Leave everything else default.
 - Wait until your compute is created *(you need to click refresh sometimes)*
 
 ![title](images/screen_001.png)
@@ -53,8 +53,7 @@ urllib.request.urlretrieve(setup_notebook_url, 'absa/setup.ipynb')
 - Open the folder 'absa'
 - Click on "setup.ipynb"
 - Click on the Jupyter dropdown and select: 'Open in Jupyter'
-- Run all the cells in the Notebook (Use schift - enter to run a single cell)
-
+- Run all the cells in the Notebook (Use shift + enter to run a single cell)
 
 
 ## Your workspace is now ready to run the demos.
@@ -63,14 +62,14 @@ urllib.request.urlretrieve(setup_notebook_url, 'absa/setup.ipynb')
 - Under "Notebooks" open the folder absa/notebooks
 - click on 'absa.ipynb'
 - Click on the Jupyter dropdown and select: 'Open in Jupyter'
-- Run throught the compleet notebook 
+- Run through the complete notebook 
  - It should run without any changes
- - Follow some inline instructions to make your demo smooth
+ - Follow some inline instructions to make your demo smoother
 
 ### Demo 2 - ABSA Hyperparamaters
 - Under "Notebooks" open the folder absa/notebooks
 - click on 'absa-hyperdrive.ipynb'
 - Click on the Jupyter dropdown and select: 'Open in Jupyter'
-- Run throught the compleet notebook 
+- Run through the complete notebook 
  - It should run without any changes
- - Follow some inline instructions to make your demo smooth
+ - Follow some inline instructions to make your demo smoother
