@@ -3,7 +3,7 @@
 The easiest way to setup an enviroment is to use the Azure CLI with the Azure Machine Learning add-on
 
 ### Install the Azure CLI
-Follow the instructions on docs: [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+Follow the instructions on docs: [Install the Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest&WT.mc_id=aiml-0000-heboelma)
 
 ### Install the ML Add on
 ```
@@ -23,7 +23,7 @@ az group create -l westeurope -g absa-ml-rg
 az ml workspace create -w absa-workspace -l westeurope -g absa-ml-rg
 ```
 
-- Navigate to: [ml.azure.com](https://ml.azure.com/)
+- Navigate to: [ml.azure.com](https://ml.azure.com/?WT.mc_id=aiml-0000-heboelma)
 - Select your subscription and workspace
 - (1) In the left menu Navigate to Notebooks
 - (2) Click on 'create new file'
